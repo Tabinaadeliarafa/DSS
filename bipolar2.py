@@ -82,6 +82,18 @@ def perform_linear_regression(X, y):
 # Fungsi utama untuk menjalankan aplikasi Streamlit
 def main():
     st.set_page_config(layout="wide")  # Mengatur layout aplikasi Streamlit
+
+    st.markdown(
+    """
+    <div style="text-align: center;">
+        <img src="https://i.pinimg.com/736x/f7/78/36/f778366f44d58776efec54a9c69dd374.jpg" width="30%" center="30%" />
+        <img src="https://i.pinimg.com/originals/ae/28/cb/ae28cb0855f4ca387159ceb0c68dd126.gif" width="35%" center="35%" />
+        <img src="https://i.pinimg.com/736x/26/8e/d4/268ed4a083f41931000b1c89ef69d7d8.jpg" width="30%" center="30%" />
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
+
     st.title("📊 Analisis Mental Health Bipolar")  # Menampilkan judul aplikasi
 
     st.sidebar.header("Pengaturan Tampilan")  # Header untuk pengaturan tampilan di sidebar
